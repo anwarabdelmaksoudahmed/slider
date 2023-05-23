@@ -1,0 +1,41 @@
+.item{
+    margin-bottom: 20px;
+    font-family:'Segoe UI light' ;
+    cursor: pointer;
+}
+.caption-item
+{
+   
+    background-color: #fff;
+    text-align: center;
+    width: 80%;
+    bottom:50px;
+    /* left: 10%; */
+}
+.lightBoxContainer{
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(128, 128, 128, 0.601);
+    display: none;
+}
+.lightBoxItem
+{
+    cursor:pointer;
+    width: 500px;
+    height: 500px;
+    background-image:url(/images/portfolio-1.jpg) ;
+    background-position: center center;
+    background-size: 100% 100%;
+    font-size: 20px;
+
+}
+.lightBoxItem #closeBtn
+{
+    position: absolute;
+    top: 0;
+    right:0;
+}
